@@ -65,10 +65,10 @@ a {
 }
 
 a:link {
-    color: yellow;
+    color: #ff3;
 }
 a:visited {
-    color: yellow;
+    color: #ff3;
 }
 a:hover {
     color: grey;
