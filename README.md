@@ -12,4 +12,6 @@ basic start of my project
 
 ##entered a target blank page to the nav bar in the footer as i   see in the project
 
-## changing color in achors in 1st (p) no the correct yellow
+## changing color in achors in 1st (p) no the correct yellow.
+
+## im working on responsive for mobile phones and tablets 
