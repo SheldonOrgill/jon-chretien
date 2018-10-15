@@ -22,7 +22,7 @@ hr {
     margin: 0 auto;
     padding: 0;
 }
-
+/* baby avatar */
 header {
     text-align: center;
     font-size: 1.8rem;
@@ -63,7 +63,7 @@ a {
     text-decoration: none;
     transition: color 150ms ease-in-out;
 }
-
+/* Achor links */
 a:link {
     color: #ff3;
 }
@@ -96,7 +96,7 @@ h3 {
 main {
     padding: 0;
 }
-
+/* Selected works */
 .grid-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -104,7 +104,7 @@ main {
     grid-row-gap: 4px;
     grid-column-gap: 15px;
 }
-
+/* images of the selected works */
 .grid-item {
     background-color:#3a3a3a00;
     background-size: cover;
@@ -118,7 +118,7 @@ main {
 .grid-blurb {
     min-height: 100px;
 }
-
+/* content under the images */
 .grid-blurb span {
     padding-top: 3px;
     display: block;
@@ -131,7 +131,7 @@ main {
 .grid-item:hover {
     background-color:#3a3a3a80;
 }
-
+/* layout of images */
 .grid-item:nth-child(1) {
     background-image: url('https://jonchretien.com/img/work_s4a.jpg')
 }
@@ -159,7 +159,7 @@ main {
 .grid-item:nth-child(15) {
     background-image: url('https://jonchretien.com/img/work_holga_project.jpg')
 }
-
+/* photography */
 .grid-container-photo {
     grid-gap: 20px;
     display: grid;
@@ -189,6 +189,7 @@ main {
 .grid-container-photo .grid-item:nth-child(5) {
     background-image: url('https://jonchretien.com/img/warriors.jpg');
 }
+/* end of grid photography */
 
 .grid-container-albums {
     grid-column-gap: 25px;
@@ -251,4 +252,24 @@ footer div {
     font-size: 1.25em;
     align-items: flex-end;
     justify-content: flex-end;
+}
+
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+    
+}
+
+/* ##Device = Tablets, Ipads (portrait)
+##Screen = B/w 768px to 1024px */
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+
+
 }
