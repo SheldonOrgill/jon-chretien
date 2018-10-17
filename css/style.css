@@ -265,7 +265,9 @@ MEDIA QUERIES
     header p {
         width: 100%;
     }
-
+    .main{
+        padding-right: 40px;
+    }
 
 }
 
@@ -285,7 +287,9 @@ MEDIA QUERIES
     .grid-container {
         grid-template-columns: repeat(2, 1fr);
     }
-
+    .main{
+        padding-right: 40px;
+    }
 
 }
 
@@ -311,6 +315,9 @@ MEDIA QUERIES
         display: inline;
         margin-left: 10px;
         margin-right: 10px;
+    }
+    .main{
+        padding-right: 30px;
     }
 }
 
@@ -339,5 +346,8 @@ MEDIA QUERIES
 
     header p {
         font-size: 0.85em;
+    }
+    .main{
+        padding-right: 30px;
     }
 }
