@@ -8,13 +8,14 @@ body {
     margin: 0;
     background-color: #0a0a0a;
     color: rgb(214, 214, 214);
-    margin-left: 5%;
+    /* margin-left: 5%; */
 }
 
 header {
     text-align: center;
     font-size: 1.8rem;
     padding: 60px 0 0 0;
+   
 }
 header img {
     width: 120px;
@@ -22,6 +23,9 @@ header img {
     border-radius: 50%;
 }
 
+hr{
+    margin-right: 10%;
+}
 header h1 {
     font-weight: 1000;
     padding: 0;
@@ -38,7 +42,7 @@ header p {
     font-size: 2.13rem;
     width: 1240px;
     padding: 0 50px;
-    margin-bottom: 60px;
+    margin: 0 auto;
 }
 
 header hr {
@@ -48,9 +52,12 @@ header hr {
     border-bottom: 3px double #6f6f6f;
     border-left: none;
     border-right: none;
+    width: 80%;
 }
 main {
     padding: 0;
+    margin-right: 10%;
+    margin-left: 10%;
 }
 
 section {
@@ -79,6 +86,7 @@ nav ul {
     padding: 0;
     margin: 0;
     justify-content: flex-start;
+    padding-left: 38%;
 }
 
 nav li {
@@ -89,6 +97,7 @@ nav li {
 
 
 
+/* classes*/
 .container {
     width: 1240px;
     margin: 0 auto;
@@ -97,8 +106,9 @@ nav li {
 
 .footer-container {
     padding: 50px 0;
+    padding-right: 10%;
 }
-
+/* grid layout */
 .grid-container {
     height: fit-content;
     display: grid;
@@ -124,7 +134,7 @@ nav li {
 .grid-info {
     height: fit-content;
     display: block;
-    margin-bottom: 25px
+    margin-bottom: 25px;
 }
 
 .grid-item span {
@@ -177,16 +187,17 @@ nav li {
 .grid-container-albums .grid-info {
     text-align: center;
     font-size: 1.2em;
+    padding: 5px;
 }
 .grid-container-albums .grid-info h3 {
     font-size: 1em;
 }
-
+/* html classes */
 hr {
     display: block;
-    clear: both;
     border: none;
     border-bottom: 1px solid #666666;
+    width: 100%;
 }
 
 a {
@@ -196,6 +207,7 @@ a {
 
 a:link {
     color: yellow;
+    text-decoration: none;
 }
 a:visited {
     color: yellow;
@@ -347,7 +359,7 @@ MEDIA QUERIES
     header p {
         font-size: 0.85em;
     }
-    .main{
+    .main {
         padding-right: 30px;
     }
 }
