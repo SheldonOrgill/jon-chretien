@@ -260,6 +260,8 @@ MEDIA QUERIES
         grid-row-gap: 0;
         grid-template-columns: 1fr;
     
+    
+    
     }
 
     header p {
@@ -315,6 +317,7 @@ MEDIA QUERIES
         display: block;
         align-items: center;
         justify-content: center;
+        padding-left: 40%;
     }
     footer {
         display: block;
