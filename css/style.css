@@ -8,21 +8,9 @@ body {
     margin: 0;
     background-color: #0a0a0a;
     color: rgb(214, 214, 214);
-}
-section {
-    margin: 50px auto;
-}
-hr {
-    border: none;
-    border-bottom: 1px solid #666666;
+    margin-left: 5%;
 }
 
-.container {
-    width: 1240px;
-    margin: 0 auto;
-    padding: 0;
-}
-/* baby avatar */
 header {
     text-align: center;
     font-size: 1.8rem;
@@ -35,18 +23,21 @@ header img {
 }
 
 header h1 {
-    font-weight: 900;
+    font-weight: 1000;
     padding: 0;
     margin: 20px 0 -10px 0 ;
     color: #FFFFFF;
     font-size: 1.65em;
-    line-height: 0.5;
+    line-height: 1.5;
+    font-family: 'Bitter', serif;
+    
 }
 
 header p {
     line-height: 1.3;
     font-size: 2.13rem;
-    padding: 0 75px;
+    width: 1240px;
+    padding: 0 50px;
     margin-bottom: 60px;
 }
 
@@ -58,170 +49,23 @@ header hr {
     border-left: none;
     border-right: none;
 }
-
-a {
-    text-decoration: none;
-    transition: color 150ms ease-in-out;
-}
-/* Achor links */
-a:link {
-    color: #ff3;
-}
-a:visited {
-    color: #ff3;
-}
-a:hover {
-    color: grey;
-}
-a:active {
-    color: rgb(66, 33, 33);
-}
-
-h2 {
-    transform: translateY(20px);
-    font-weight: 900;
-    color: #FFFFFF;
-    font-size: 3em;
-    text-align: center;
-}
-
-h3 {
-    font-weight: 400;
-    color: yellow;
-    margin-top: 4px;
-    margin-bottom: 4px;
-    font-size: 1.6em;
-}
-
 main {
     padding: 0;
 }
-/* Selected works */
-.grid-container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 2fr 0.85fr);
-    grid-row-gap: 4px;
-    grid-column-gap: 15px;
+
+section {
+    height: fit-content;
+    padding-bottom: 50px;
 }
-/* images of the selected works */
-.grid-item {
-    background-color:#3a3a3a00;
-    background-size: cover;
-    background-blend-mode: multiply;
-    background-position: center;
+
+
+footer div {
     height: auto;
-    min-height: 300px;
-    transition: background-color 400ms ease-in-out;
-}
-
-.grid-blurb {
-    min-height: 100px;
-}
-/* content under the images */
-.grid-blurb span {
-    padding-top: 3px;
-    display: block;
-    font-family: 'Helvetica';
-    font-weight: 500;
-    font-size: 0.7em;
-    color: #808080;
-}
-
-.grid-item:hover {
-    background-color:#3a3a3a80;
-}
-/* layout of images */
-.grid-item:nth-child(1) {
-    background-image: url('https://jonchretien.com/img/work_s4a.jpg')
-}
-.grid-item:nth-child(2) {
-    background-image: url('https://jonchretien.com/img/work_midterms.jpg')
-}
-.grid-item:nth-child(3) {
-    background-image: url('https://jonchretien.com/img/work_opinionator.gif')
-}
-.grid-item:nth-child(7) {
-    background-image: url('https://jonchretien.com/img/work_emp.jpg')
-}
-.grid-item:nth-child(8) {
-    background-image: url('https://jonchretien.com/img/work_custard.gif')
-}
-.grid-item:nth-child(9) {
-    background-image: url('https://jonchretien.com/img/work_trickipedia.jpg')
-}
-.grid-item:nth-child(13) {
-    background-image: url('https://jonchretien.com/img/work_hungry_city.gif')
-}
-.grid-item:nth-child(14) {
-    background-image: url('https://jonchretien.com/img/work_carousel.gif')
-}
-.grid-item:nth-child(15) {
-    background-image: url('https://jonchretien.com/img/work_holga_project.jpg')
-}
-/* photography */
-.grid-container-photo {
-    grid-gap: 20px;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(4, 1fr);
-}
-
-.grid-container-photo .grid-item {
-    min-height: 400px;
-    height: auto;
-}
-
-.grid-container-photo .grid-item:nth-child(1) {
-    background-image: url('https://jonchretien.com/img/stripes.jpg');
-}
-.grid-container-photo .grid-item:nth-child(2) {
-    background-image: url('https://jonchretien.com/img/camera.jpg');
-}
-.grid-container-photo .grid-item:nth-child(3) {
-    background-image: url('https://jonchretien.com/img/biker.jpg');
-    grid-row: span 2;
-    grid-column: span 2;
-}
-.grid-container-photo .grid-item:nth-child(4) {
-    background-image: url('https://jonchretien.com/img/ballerina.jpg');
-}
-.grid-container-photo .grid-item:nth-child(5) {
-    background-image: url('https://jonchretien.com/img/warriors.jpg');
-}
-/* end of grid photography */
-
-.grid-container-albums {
-    grid-column-gap: 25px;
-    grid-row-gap: 10px;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-
-}
-
-.grid-container-albums .grid-item {
-    min-height: 300px;
-    height: auto;
-}
-
-.grid-container-albums .grid-item:nth-child(1) {
-    background-image: url('https://i.scdn.co/image/ed73696e637e57372b1dac5026f8848241c75417');
-}
-.grid-container-albums .grid-item:nth-child(2) {
-    background-image: url('https://i.scdn.co/image/b8fdb9c4467c35499c2a554e7ae68842a15c2f62');
-}
-.grid-container-albums .grid-item:nth-child(3) {
-    background-image: url('https://i.scdn.co/image/659f05e9ce15d0b81ea191937c2c3a3aecec160c');
-}
-.grid-container-albums .grid-item:nth-child(4) {
-    background-image: url('https://i.scdn.co/image/5026fddc6c0b69e931ae99130f15d4214f1e7d41');
-}
-.grid-container-albums .grid-blurb {
-    text-align: center;
-    font-size: 1.2em;
-}
-.grid-container-albums .grid-blurb h3 {
-    font-size: 1em;
+    width: 100%;
+    display: flex;
+    font-size: 1.25em;
+    align-items: flex-end;
+    justify-content: flex-end;
 }
 
 footer {
@@ -242,34 +86,258 @@ nav li {
     font-size: 1.25em;
     margin-right: 20px;
 }
+
+
+
+.container {
+    width: 1240px;
+    margin: 0 auto;
+    padding: 0;
+}
+
 .footer-container {
     padding: 50px 0;
 }
-footer div {
-    height: auto;
-    width: 100%;
-    display: flex;
-    font-size: 1.25em;
-    align-items: flex-end;
-    justify-content: flex-end;
+
+.grid-container {
+    height: fit-content;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 4px;
+    grid-column-gap: 25px;
 }
 
+.grid-item {
+    opacity: 1;
+    height: fit-content;
+
+}
+
+.grid-item img {
+    opacity: 1;
+    height: auto;
+    width: auto;
+    max-width: 100%;
+    transition: opacity 400ms ease-in-out;
+}
+
+.grid-info {
+    height: fit-content;
+    display: block;
+    margin-bottom: 25px
+}
+
+.grid-item span {
+    padding-top: 3px;
+    display: block;
+    font-family: 'Helvetica';
+    font-weight: 500;
+    font-size: 0.7em;
+    color: #909090;
+}
+
+.grid-item img:hover {
+    opacity: 0.55;
+}
+
+.grid-container-photo {
+    grid-gap: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+}
+
+.grid-container-photo .grid-item img {
+    width: auto;
+    height: auto;
+    max-width: 100%;
+}
+.grid-container-photo .grid-item:nth-child(3) {
+    grid-column: span 2;
+    grid-row: span 2;
+}
+.grid-container-photo .grid-item img:hover {
+    opacity: 0.55;
+}
+
+
+.grid-container-albums {
+    grid-column-gap: 25px;
+    grid-row-gap: 10px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+
+}
+
+.grid-container-albums .grid-item {
+    height: auto;
+}
+
+
+.grid-container-albums .grid-info {
+    text-align: center;
+    font-size: 1.2em;
+}
+.grid-container-albums .grid-info h3 {
+    font-size: 1em;
+}
+
+hr {
+    display: block;
+    clear: both;
+    border: none;
+    border-bottom: 1px solid #666666;
+}
+
+a {
+    text-decoration: none;
+    transition: color 150ms ease-in-out;
+}
+
+a:link {
+    color: yellow;
+}
+a:visited {
+    color: yellow;
+}
+a:hover {
+    color: grey;
+}
+a:active {
+    color: rgb(66, 33, 33);
+}
+
+h2 {
+    transform: translateY(20px);
+    font-weight: 900;
+    color: #FFFFFF;
+    font-size: 3em;
+    text-align: center;
+    line-height: 2;
+}
+
+h3 {
+    font-weight: 400;
+    color: yellow;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    font-size: 1.6em;
+}
 
 /* 
-  ##Device = Most of the Smartphones Mobiles (Portrait)
-  ##Screen = B/w 320px to 479px
+MEDIA QUERIES
 */
 
-@media (min-width: 320px) and (max-width: 480px) {
-  
+/* Mobile Screens */
+@media (max-width: 480px) {
+
+    .grid-container-photo .grid-item:nth-child(3) {
+        grid-column: span 1;
+        grid-row: span 1;
+    }
+
+    .grid-container-photo {
+        grid-template-columns: 1fr;
+    }
+
+    .grid-container {
+        grid-template-columns: 1fr;
+    }
+
+    .grid-container-albums {
+        grid-row-gap: 0;
+        grid-template-columns: 1fr;
     
+    }
+
+    header p {
+        font-size: 0.85em;
+    }
+}
+/* Laptop */
+
+@media (max-width: 1350px) {
+    .container {
+        width: 100%;
+        padding: 0 40px;
+        margin: 0 auto;
+    }
+    header p {
+        width: 100%;
+    }
+
+
 }
 
-/* ##Device = Tablets, Ipads (portrait)
-##Screen = B/w 768px to 1024px */
 
-@media (min-width: 768px) and (max-width: 1024px) {
+/* Tablet */
 
 
+@media (max-width: 970px) {
 
+    .grid-container-photo .grid-item {
+        min-height: 50px;
+        height: auto;
+    }
+    .grid-container-photo {
+        height: auto;
+    }
+    .grid-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+
+}
+
+
+@media (max-width: 768px) {
+
+    header {
+        padding-top: 40px;
+    }
+    footer div {
+        display: block;
+        align-items: center;
+        justify-content: center;
+    }
+    footer {
+        display: block;
+        text-align: center;
+    }
+    nav ul {
+        display: block;
+    }
+    nav li {
+        display: inline;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
+
+/* Mobile Screens */
+
+@media (max-width: 480px) {
+
+    .grid-container-photo .grid-item:nth-child(3) {
+        grid-column: span 1;
+        grid-row: span 1;
+    }
+
+    .grid-container-photo {
+        grid-template-columns: 1fr;
+    }
+
+    .grid-container {
+        grid-template-columns: 1fr;
+    }
+
+    .grid-container-albums {
+        grid-row-gap: 0;
+        grid-template-columns: 1fr;
+    
+    }
+
+    header p {
+        font-size: 0.85em;
+    }
 }
