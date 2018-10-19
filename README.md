@@ -51,4 +51,4 @@ basic start of my project
     2.got a basic understanding so far of it.
     3.will up date with more detail, once i learn more on responsiveness.
 
-    live link here: https://sheldonorgill.github.io/jonchretien_project/index.html 
+    live link here: https://sheldonorgill.github.io/jonchretien/index.html 
