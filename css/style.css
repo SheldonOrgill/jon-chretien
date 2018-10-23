@@ -260,12 +260,13 @@ MEDIA QUERIES
         grid-row-gap: 0;
         grid-template-columns: 1fr;
     
-    
-    
     }
 
     header p {
         font-size: 0.85em;
+    }
+    .footer-container{
+        margin-right: 20%;
     }
 }
 /* Laptop */
